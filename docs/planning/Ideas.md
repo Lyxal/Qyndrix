@@ -11,15 +11,17 @@
 /...
 ....
 .../
-``` --> Inline block. Box bounded by slashes.
+```
+
+ --> Inline block. Box bounded by slashes.
 
 ```
 /.......
 ../.....
 ....../.
 ......./
-``` --> nestable
-```
+``` 
+--> nestable
 
 - `~` to turn a block left into a function
 - `!` to turn a block up into a function
