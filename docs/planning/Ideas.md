@@ -4,4 +4,4 @@
 - commands can be enclosed in `{}` to make it a single transversable unit. 
 - `'n` encloses the next n horizontal characters
 - vertical enclosing to: `^¶¶¶v`
-- directions = `
+- directions = `VA<>`
