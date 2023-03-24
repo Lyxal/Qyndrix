@@ -23,5 +23,33 @@
 ``` 
 --> nestable
 
-- `~` to turn a block left into a function
-- `!` to turn a block up into a function
+- `~` to turn a thing left into a function
+- `!` to turn a thing up into a function
+- Those can be anywhere below a block or right of a block and still get the whole block. 
+
+- Modifiers get from:
+
+```
+    4
+    ^
+1 < o > 3
+    v
+    2
+```
+
+However, can be overriden. 
+
+`qwer` -> `<v>^` for modifiers. Always read from right of modifier:
+
+```
+oeq
+```
+
+--> gets from right then left. 
+
+```
+oE2e
+```
+
+--> gets from twice over right then right
+
