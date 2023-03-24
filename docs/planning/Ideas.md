@@ -53,3 +53,24 @@ oE2e
 
 --> gets from twice over right then right
 
+- Strings: `(contents)`. `\)` for literal close paren. Nestable like jelly. Reads until last thing in a sequential manner. Newlines are removed. Parses with priority over everything else. 
+
+- Numeric literals are full literals
+
+- `#` halts
+
+- `§` is comment
+
+- single `.` is NOP
+
+**Examples**
+
+```
+(Hello, World!)# § Prints HW
+```
+
+```
+100 /3 5 p % 0 ~ M
+. (FizzBuzz) 2 * +~ R 
+. G . . . /
+```
