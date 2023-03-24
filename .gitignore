@@ -1,2 +1,13 @@
 *.class
 *.log
+
+# Goofy ahh folders
+.bloop/
+.bsp/
+.metals/
+.vscode/
+null/
+out/
+project/project/
+target/
+metals.sbt
