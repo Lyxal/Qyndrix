@@ -70,7 +70,19 @@ oE2e
 ```
 
 ```
-100 /3 5 p % 0 ~ M (¶) j
+100 /3 5 p % 0 ~ M (¶) j #
 . (FizzBuzz) 2 * +~ R 
 . G . . . /
 ```
+
+Alternatively
+
+```
+100 @a; ~ M (¶) j
+
+[a
+3 5 p % 0 V
+. V * 2 (FizzBuzz) <
+. G
+. |
+]
