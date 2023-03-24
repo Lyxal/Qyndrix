@@ -5,3 +5,21 @@
 - `'n` encloses the next n horizontal characters
 - vertical enclosing to: `^¶¶¶v`
 - directions = `VA<>`
+- `[name¶...¶]` defines a block macro. `@name;` to call
+
+```
+/...
+....
+.../
+``` --> Inline block. Box bounded by slashes.
+
+```
+/.......
+../.....
+....../.
+......./
+``` --> nestable
+```
+
+- `~` to turn a block left into a function
+- `!` to turn a block up into a function
